@@ -2,13 +2,13 @@
 
 Install Bun
 
-```
+```bash
     curl -fsSL https://bun.sh/install | bash
 ```
 
 Local run
 
-```
+```bash
   bun install
   bun run dev
 ```
@@ -16,7 +16,13 @@ Local run
 
 Deploy gh pages
 
-bun run deploy
+```
+  bun run build
+  bun run deploy
+```
+
+Will push the dist to gh-pages. Go to https://samsambutdifferent.github.io/react-gh-pages-template/ to see site
+
 
 
 # React + TypeScript + Vite
